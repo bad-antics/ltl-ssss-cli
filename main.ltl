@@ -1,0 +1,15 @@
+// ltl-ssss-cli/main.ltl
+//
+// CLI wrapper for splitting and recombining secrets.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-ssss-cli v0.1.0")
+    io::println("CLI wrapper for splitting and recombining secrets.")
+    0
+}
